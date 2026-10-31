@@ -212,7 +212,7 @@ class PhoneActionRouter(
             return ActionResult(ExecutionStatus.FAILED, "The field didn't accept the text.")
         delay(200)
         node.refresh()
-        return if (node.text?.toString()?.contains(a.text) == true) done("Typed the text.")
+        return if (node.text?.toString()?.contains(a.text!!) == true) done("Typed the text.")
         else ActionResult(ExecutionStatus.UNVERIFIED, "Sent the text but couldn't confirm it appeared in the field.")
     }
 }
