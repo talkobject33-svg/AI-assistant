@@ -1,0 +1,4 @@
+<resources>
+    <string name="app_name">AI Assistant</string>
+    <string name="accessibility_description">Lets your personal AI assistant tap, scroll and type on screen only when you ask it to by voice or text. It cannot act on its own, and you can turn it off at any time.</string>
+</resources>
